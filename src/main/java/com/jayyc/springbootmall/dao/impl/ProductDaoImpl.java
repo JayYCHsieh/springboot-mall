@@ -128,6 +128,7 @@ public class ProductDaoImpl implements ProductDao {
         map.put("imageUrl", productRequest.getImageUrl());
         map.put("price", productRequest.getPrice());
         map.put("stock", productRequest.getStock());
+
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         map.put("lastModifiedDate", timestamp);
 
