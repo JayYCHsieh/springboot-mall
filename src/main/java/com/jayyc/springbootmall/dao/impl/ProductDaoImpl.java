@@ -1,6 +1,5 @@
 package com.jayyc.springbootmall.dao.impl;
 
-import com.jayyc.springbootmall.constant.ProductCategory;
 import com.jayyc.springbootmall.dao.ProductDao;
 import com.jayyc.springbootmall.dto.ProductQueryParams;
 import com.jayyc.springbootmall.dto.ProductRequest;
